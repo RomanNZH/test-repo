@@ -1,0 +1,40 @@
+// Colors
+
+$dark: #343434;
+$main-color: #C3002F;
+$main-color-hover: #930E2E;
+$secondary-main: #333333;
+$gray: rgba(0, 0, 0, 0.20);
+$light-gray: rgba(0, 0, 0, 0.06);
+
+//Fonts
+
+@mixin branded-font {
+    font-family: 'Nissan Brand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin base-font {
+    font-family: 'Nissan Brand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Functions
+
+@function get-desktop-vw($target) {
+    $vw-context: (1800 * 0.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
+@function get-mobile-vw($target) {
+    $vw-context: (320 * 0.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}

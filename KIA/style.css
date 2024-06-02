@@ -1,0 +1,846 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-page-wrapper .title {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 6px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .title {
+    font-size: 1.7777777778vw;
+    line-height: 2.2222222222vw;
+    margin-bottom: 0.4444444444vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .title {
+    font-size: 5.3125vw;
+    line-height: 6.25vw;
+    margin-bottom: 2.8125vw;
+  }
+}
+.custom-page-wrapper .paragraph {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .paragraph {
+    font-size: 1.1111111111vw;
+    line-height: 1.5555555556vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .paragraph {
+    font-size: 3.75vw;
+    line-height: 5vw;
+  }
+}
+.custom-page-wrapper .button {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #05141F;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .button {
+    font-size: 1.1111111111vw;
+    line-height: 3.1111111111vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .button {
+    font-size: 3.75vw;
+    line-height: 10vw;
+  }
+}
+.custom-page-wrapper .button:hover {
+  background: #343132;
+}
+.custom-page-wrapper .main-color {
+  color: #05141F;
+}
+.custom-page-wrapper .italic {
+  font-style: italic;
+}
+.custom-page-wrapper .hero-section {
+  background: url(https://project.clcdatahub.com/cochran/service/kia/img/kia-service-hero-image-desktop.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 35vw;
+  padding: 96px 24px 0 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .hero-section {
+    height: 37.3333333333vw;
+    padding: 5.3333333333vw 1.3333333333vw 0 1.3333333333vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .hero-section {
+    height: 80vw;
+    padding: 5vw 5vw 0 5vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(https://project.clcdatahub.com/cochran/service/kia/img/kia-service-hero-image-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+.custom-page-wrapper .hero-section__title {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .hero-section__title {
+    font-size: 3.1111111111vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .hero-section__title {
+    font-size: 6.375vw;
+    margin-left: -0.5vw;
+    text-align: left;
+  }
+}
+.custom-page-wrapper .hero-section__hours {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0 28px 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .hero-section__hours {
+    font-size: 0.8888888889vw;
+    margin: 0.5555555556vw 0 1.5555555556vw 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .hero-section__hours {
+    font-size: 2.5vw;
+    letter-spacing: 0.01em;
+    margin: 1.5625vw 0 0 0;
+    text-align: left;
+  }
+}
+.custom-page-wrapper .hero-section__button {
+  width: 320px;
+  display: block;
+  background: none;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .hero-section__button {
+    display: none;
+  }
+}
+.custom-page-wrapper .hero-section__caption {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin: auto 0 28px 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .hero-section__caption {
+    font-size: 0.8888888889vw;
+    line-height: 1.1111111111vw;
+    margin: auto 0 0.8888888889vw 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .hero-section__caption {
+    display: none;
+  }
+}
+.custom-page-wrapper .buttons-list {
+  display: flex;
+  padding: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .buttons-list {
+    padding: 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .buttons-list {
+    flex-direction: column;
+    width: 90vw;
+    margin: auto auto 0.625vw auto;
+    padding: 0;
+  }
+}
+.custom-page-wrapper .buttons-list__item {
+  display: block;
+  width: 24.2%;
+  height: 72px;
+  text-decoration: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .buttons-list__item {
+    height: 3.5555555556vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .buttons-list__item {
+    width: 100%;
+    height: 9.375vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .custom-page-wrapper .buttons-list__item:nth-child(3) img {
+    margin-right: 2.8125vw;
+  }
+  .custom-page-wrapper .buttons-list__item:nth-child(4) img {
+    margin-right: 2.8125vw;
+  }
+}
+.custom-page-wrapper .buttons-list__item:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .buttons-list__item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+.custom-page-wrapper .buttons-list__item:hover {
+  color: white;
+  border-top: 1px solid white;
+}
+.custom-page-wrapper .buttons-list__item:hover .buttons-list__caption {
+  color: white;
+}
+.custom-page-wrapper .buttons-list__icon {
+  margin: 20px 0 30px 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .buttons-list__icon {
+    margin: 1.1111111111vw 0 1.6666666667vw 0;
+    height: 5.7777777778vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .buttons-list__icon {
+    margin: 3.75vw;
+    height: 12.5vw;
+  }
+}
+.custom-page-wrapper .buttons-list__caption {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  line-height: 72px;
+  display: block;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .buttons-list__caption {
+    font-size: 1.1111111111vw;
+    line-height: 3.5555555556vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .buttons-list__caption {
+    font-size: 3.75vw;
+  }
+}
+.custom-page-wrapper .about-section {
+  display: flex;
+  margin-top: 128px;
+  padding: 0 24px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .about-section {
+    margin-top: 7.1111111111vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .about-section {
+    width: 90vw;
+    margin: 12.5vw auto 0 auto;
+    flex-direction: column;
+    padding: 0 0 5vw 0;
+  }
+}
+.custom-page-wrapper .about-section-image {
+  width: 50%;
+  height: auto;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .about-section-image {
+    width: 100%;
+  }
+}
+.custom-page-wrapper .about-section-image img {
+  width: 100%;
+  display: block;
+}
+.custom-page-wrapper .about-section-copy {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .about-section-copy {
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5vw;
+  }
+}
+.custom-page-wrapper .about-section-copy__title {
+  color: #111111;
+  width: 80%;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .about-section-copy__title {
+    width: 100%;
+  }
+}
+.custom-page-wrapper .about-section-copy__paragraph {
+  color: #111111;
+  width: 80%;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .about-section-copy__paragraph {
+    width: 100%;
+  }
+}
+.custom-page-wrapper .about-section-copy__button {
+  width: 320px;
+  margin-top: 17px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .about-section-copy__button {
+    width: 17.7777777778vw;
+    margin-top: 0.9444444444vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .about-section-copy__button {
+    width: 90vw;
+    margin-top: 4.375vw;
+  }
+}
+.custom-page-wrapper .multipoint-section {
+  margin: 143px 0 0 0;
+  padding: 0 24px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section {
+    margin: 7.9444444444vw 0 0 0;
+    padding: 0 1.3333333333vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section {
+    margin: 8.4375vw 0 0 0;
+    padding: 0 5vw;
+  }
+}
+.custom-page-wrapper .multipoint-section__title {
+  color: #111111;
+  width: calc(50% - 24px);
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section__title {
+    width: calc(50% - 1.3333333333vw);
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section__title {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+.custom-page-wrapper .multipoint-section__paragraph {
+  width: calc(50% - 24px);
+  color: #111111;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section__paragraph {
+    width: calc(50% - 1.3333333333vw);
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section__paragraph {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+.custom-page-wrapper .multipoint-section-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section-list {
+    margin-top: 1.3888888889vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section-list {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-top: 5vw;
+  }
+  .custom-page-wrapper .multipoint-section-list::-webkit-scrollbar {
+    display: none;
+  }
+}
+.custom-page-wrapper .multipoint-section-list__item {
+  width: 49.5%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section-list__item {
+    padding: 0.8888888889vw 0;
+  }
+}
+.custom-page-wrapper .multipoint-section-list__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.custom-page-wrapper .multipoint-section-list__item:nth-child(-n+2) {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section-list__item {
+    width: 90vw;
+    padding: 0;
+    flex: 0 0 auto;
+  }
+  .custom-page-wrapper .multipoint-section-list__item:nth-child(2) {
+    border-top: none;
+  }
+}
+.custom-page-wrapper .multipoint-section-list__image {
+  height: 124px;
+  width: auto;
+}
+@media (min-width: 1800px) {
+  .custom-page-wrapper .multipoint-section-list__image {
+    height: 6.8888888889vw;
+  }
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section-list__image {
+    height: 6.8888888889vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section-list__image {
+    height: 15vw;
+  }
+}
+.custom-page-wrapper .multipoint-section-list__caption {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+  color: #111111;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 1800px) {
+  .custom-page-wrapper .multipoint-section-list__caption {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .multipoint-section-list__caption {
+    font-size: 1.1111111111vw;
+    line-height: 1.3333333333vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .multipoint-section-list__caption {
+    font-size: 3.75vw;
+    line-height: 9.375vw;
+    text-align: left;
+  }
+}
+.custom-page-wrapper .services-list {
+  margin: 176px 0 0 0;
+  padding: 0 24px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .services-list {
+    margin: 8.8888888889vw 0 0 0;
+    padding: 0 1.3333333333vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list {
+    margin: 15vw 0 0 0;
+    padding: 0;
+  }
+}
+.custom-page-wrapper .services-list__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 24px 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .services-list__item {
+    padding: 1.3333333333vw 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__item {
+    flex-direction: column;
+    border-bottom: none;
+    padding: 0;
+  }
+  .custom-page-wrapper .services-list__item:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+}
+.custom-page-wrapper .services-list__image {
+  width: 49.5%;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__image {
+    width: 100%;
+  }
+}
+.custom-page-wrapper .services-list__image img {
+  width: 100%;
+  display: block;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__image img {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.custom-page-wrapper .services-list__content {
+  width: 49.5%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__content {
+    width: 90vw;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5vw 5vw 10vw 5vw;
+  }
+}
+.custom-page-wrapper .services-list__title {
+  width: 80%;
+  color: #111111;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__title {
+    width: 100%;
+    text-align: left;
+  }
+}
+.custom-page-wrapper .services-list__paragraph {
+  width: 80%;
+  text-align: center;
+  color: #111111;
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__paragraph {
+    width: 100%;
+    text-align: left;
+  }
+}
+.custom-page-wrapper .services-list__button {
+  width: 320px;
+  margin-top: 17px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .services-list__button {
+    width: 17.7777777778vw;
+    margin-top: 0.9444444444vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .services-list__button {
+    width: 45vw;
+    margin-top: 4.375vw;
+  }
+}
+.custom-page-wrapper .benefits-section {
+  margin: 185px 0 192px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section {
+    margin: 10.2777777778vw 0 10.6666666667vw 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 7.8125vw;
+    margin: 0 auto 20vw auto;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90vw;
+  }
+}
+.custom-page-wrapper .benefits-section__title {
+  width: 50%;
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 48px;
+  line-height: 100%;
+  color: #111111;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section__title {
+    font-size: 2.6666666667vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section__title {
+    width: 100%;
+    font-size: 5.3125vw;
+    line-height: 7.5vw;
+  }
+}
+.custom-page-wrapper .benefits-section__paragraph {
+  width: 50%;
+  margin-top: 14px;
+  color: #111111;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section__paragraph {
+    margin-top: 0.7777777778vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section__paragraph {
+    width: 100%;
+    margin-top: 2.1875vw;
+  }
+}
+.custom-page-wrapper .benefits-section__button {
+  width: 320px;
+  margin-top: 17px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section__button {
+    width: 17.7777777778vw;
+    margin-top: 0.9444444444vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section__button {
+    width: 90vw;
+    margin-top: 4.375vw;
+  }
+}
+.custom-page-wrapper .benefits-section__image {
+  margin-top: 56px;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section__image {
+    margin-top: 3.1111111111vw;
+    height: 17.7777777778vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section__image {
+    width: 90vw;
+    height: auto;
+    margin-top: 10vw;
+  }
+}
+.custom-page-wrapper .benefits-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 128px;
+  padding: 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section-list {
+    margin-top: 7.1111111111vw;
+    padding: 0.8888888889vw 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section-list {
+    margin-top: 15vw;
+    padding: 0;
+    border: none;
+  }
+}
+.custom-page-wrapper .benefits-section-list__item {
+  width: calc(25% - 1px);
+  padding: 25px 0 96px 0;
+  margin-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section-list__item {
+    padding: 1.7777777778vw 0 2.2222222222vw 0;
+    margin-top: 0.8888888889vw;
+  }
+}
+.custom-page-wrapper .benefits-section-list__item:not(:nth-child(4), :nth-child(8)) {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section-list__item {
+    width: 100%;
+    border-right: none !important;
+    text-align: left;
+    margin-bottom: 0;
+    padding: 2.5vw 0;
+    margin-top: 0;
+  }
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section-list__image {
+    height: 5.3333333333vw;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section-list__image {
+    height: 22.5vw;
+    mix-blend-mode: multiply;
+  }
+}
+.custom-page-wrapper .benefits-section-list__caption {
+  font-family: "Kia Signature", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #111111;
+  display: block;
+  margin: 0;
+}
+@media (max-width: 1800px) {
+  .custom-page-wrapper .benefits-section-list__caption {
+    font-size: 1vw;
+    line-height: 1.3333333333vw;
+    display: block;
+    margin: 0;
+  }
+}
+@media (max-width: 960px) {
+  .custom-page-wrapper .benefits-section-list__caption {
+    font-size: 3.75vw;
+    line-height: 5vw;
+  }
+}/*# sourceMappingURL=style.css.map */
